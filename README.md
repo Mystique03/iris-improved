@@ -1,15 +1,15 @@
-# Iris — Voice-Powered Disease Diagnosis Assistant
+# Iris — Improved
 
-Iris is a voice-interactive medical assistant that listens to your symptoms, predicts a likely disease using a machine learning model, and provides treatment options and diet recommendations powered by an LLM.
+Iris is a voice-interactive medical assistant that listens to your symptoms, predicts a likely disease using a ML model (xgboost), and provides treatment options and diet recommendations powered by an LLM.
 
 ---
 
 ## Features
 
-- **Voice interaction** — speak naturally; Iris listens and responds using text-to-speech
-- **Symptom-based disease prediction** — XGBoost classifier trained on a labelled symptom dataset
+- **Voice interaction** — speak naturally; Iris listens and responds using text-to-speech (new)
+- **Symptom-based disease prediction** — XGBoost classifier trained on a labelled symptom dataset (new)
 - **Hyperparameter tuning** — GridSearchCV runs once and saves best params to `data/best_params.json`; subsequent loads skip the search
-- **Treatment recommendations** — fetched from Groq (Llama 3.3 70B) based on predicted disease
+- **Treatment recommendations** — fetched from Groq based on predicted disease (new)
 - **Diet chart generation** — personalised food recommendations for a given condition
 - **Wake-word activation** — session starts only when you say "Hello Doctor"
 
