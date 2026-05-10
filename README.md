@@ -1,4 +1,4 @@
-# Iris — Voice-Powered Disease Diagnosis Assistant
+# Iris — Voice-Powered Disease Diagnosis Assistant (v2)
 
 Iris is a voice-interactive medical assistant that listens to your symptoms, predicts a likely disease using a ML model (XGBoost), and provides treatment options and diet recommendations powered by an LLM.
 
